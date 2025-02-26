@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Solway';
+  src: local('Solway'), url(./fonts/Solway-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Varela';
+  src: local('Varela'), url(./fonts/VarelaRound-Regular.ttf) format('opentype');
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -31,7 +41,14 @@ body {
 }
 
 h1 {
+  font-family: Varela;
   font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p {
+  font-family: Solway;
+  font-size: 1.4em;
   line-height: 1.1;
 }
 

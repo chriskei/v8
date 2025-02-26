@@ -3,7 +3,8 @@ import './App.css';
 function App() {
     return (
         <>
-            <p className="read-the-docs">
+            <h1>Chris Kei</h1>
+            <p>
                 Click on the Vite and React logos to learn more
             </p>
         </>
